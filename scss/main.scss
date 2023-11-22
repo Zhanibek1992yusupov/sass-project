@@ -8,6 +8,19 @@
     padding: 13px 14px;
 }
 
+@mixin mainslogan() {
+    font-size: 58px;
+    font-weight: bold;
+
+}
+
+@mixin Mytite() {
+    margin-right: 2px; 
+    color: $secondary-black;
+    font-size: 23px;
+    font-weight: 500;
+}
+
 
 
 $main-black: #355070;
@@ -21,6 +34,11 @@ $secondary-brown: #EB8382;
 
 @import "./header";
 @import "./hero";
+@import "./block2";
+@import "./block3";
+@import "./block4";
+@import "./footer";
+
 
 
 
@@ -31,7 +49,7 @@ $secondary-brown: #EB8382;
 
 
 body {
-    max-width: 1167px;
+    max-width: 1440px;
     margin-inline: auto;
     background-color: $main-bg;
     font-family: 'Josefin Sans', sans-serif;

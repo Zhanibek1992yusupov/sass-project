@@ -1,0 +1,115 @@
+.block4 {
+    display: grid;
+    grid-template-columns: repeat(3, );
+    grid-template-rows: repeat(3, );
+    margin-top: 100px;
+    gap: 30px;
+    justify-items: center;
+    
+   
+
+
+    .box1 {
+        grid-column: 1 / span 3;
+        height: 50px;
+        h4 {
+            color: #446381;
+            font-family: Josefin Sans;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+                  
+    }  
+
+    .box2 {
+        grid-column: 1 / span 3;
+        justify-content: center; 
+        height: 110px;
+       
+        h1 {
+            color: #EB8382;
+            font-family: Josefin Sans;
+            font-size: 68px;
+            font-style: normal;
+            font-weight: 700;
+            color: $secondary-brown;
+        }
+
+    }
+
+    .box3 {
+        padding: 36px 46px;
+        background-color: #FBDACF;
+        border-radius: 20px;
+        button {
+            @include mainBtn;
+            width: 267px;
+            height: 50px;
+            flex-shrink: 0;
+            margin: 46px 0;
+        }
+
+        width: 360.182px;
+        height: 500px;
+       li {
+        text-decoration: none;
+        color: #826F8C;
+        font-family: Josefin Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        margin: 20px 0;
+       }
+
+       .inner1 {
+        color: #446381;
+        font-family: Josefin Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+       }
+
+       .inner {
+        display: flex;
+        align-items: center;
+        margin: 34px 0;
+        color: #EB8382;
+        font-family: Josefin Sans;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+            h3 {
+                color: #EB8382;
+                text-align: center;
+                font-family: Josefin Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 0px; /* 0% */
+                }
+        }
+    }
+  
+
+}
+
+.box3:hover {
+    background: url("../assets/Mask Group.png") no-repeat;
+    background-size: cover;
+
+    .inner1 {
+        color: #ffff;
+    }
+
+    li {
+        color: #ffff;
+    }
+
+}

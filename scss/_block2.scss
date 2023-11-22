@@ -1,0 +1,67 @@
+.block2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 54px;
+    gap: 30px;
+
+        .block2-head {
+            display: flex;
+            align-items: center;
+
+            h4 {
+               margin-right: 2px; 
+               color: #446381;
+               font-size: 23px;
+               font-weight: 500;
+            }
+
+            
+
+        }
+
+        .block2-slogan {
+            
+            @include mainslogan;
+           
+            h1:first-child {
+                color: $secondary-brown;
+            }
+        
+            h1:last-child {
+                color: $secondary-black;
+            }
+
+            img {
+                position: absolute
+            };
+        }
+        
+        .block2-txt {
+            img {
+                margin: 11px 272px 0px 384px;
+            }
+
+            &  * + * {
+                margin-top: 30px;
+            }
+            
+            p {
+                
+                color: #826F8C;
+               
+            }
+
+            button {
+                @include mainBtn;
+                margin: 0;
+            }
+        }
+
+
+
+        .block2-img {
+            position: relative;
+        }
+
+}
+

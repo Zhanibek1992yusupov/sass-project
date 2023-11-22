@@ -1,0 +1,59 @@
+.block3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+    gap: 30px;
+
+        .block3-head {
+            display: flex;
+            align-items: center;
+
+            h4 {
+                @include Mytite;
+            }
+
+            img {
+                margin-left: 29px;
+            }
+
+        }
+
+        .block3-slogan {
+            @include mainslogan;
+            h1:first-child {
+                color: $secondary-brown;
+            }
+        
+            h1:last-child {
+                color: $secondary-black;
+            }
+        }
+        
+        .block3-txt {
+            img {
+                margin: 11px 272px 0px 384px;
+            }
+
+            &  * + * {
+                margin-top: 30px;
+            }
+            
+            p {
+                color: #826F8C;
+            }
+
+            button {
+                @include mainBtn;
+                margin: 0;
+            }
+        }
+
+
+
+        .block3-img {
+            position: relative;
+
+            
+        }
+
+}
