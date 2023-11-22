@@ -125,3 +125,20 @@
     margin-top: 54px;
     gap: 30px;
 }
+
+
+.hero-img img {
+    animation: MyanimationBoy 2s;
+}
+
+@keyframes MyanimationBoy {
+    from {
+        transform: scale(0.0001);
+      }
+  
+      to {
+       
+          transform: scale(1.05);
+  
+      }
+}

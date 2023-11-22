@@ -53,6 +53,8 @@ body {
     margin-inline: auto;
     background-color: $main-bg;
     font-family: 'Josefin Sans', sans-serif;
+
+    
 }
 
 li {
@@ -61,4 +63,9 @@ li {
 
 
 
+.bg {
+        background: url("../assets/image 3.png") no-repeat;
+        background-size:contain;
+    
+}
 

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, );
     grid-template-rows: repeat(3, );
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 30px;
     justify-items: center;
     
@@ -112,4 +112,27 @@
         color: #ffff;
     }
 
+    path {
+        fill: #ffff;
+    };
+    
+}
+
+.box3:hover {
+
+    animation: myanimation 1s forwards;
+
+    
+}
+
+@keyframes myanimation {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+     
+        transform: scale(1.05);
+
+    }
 }

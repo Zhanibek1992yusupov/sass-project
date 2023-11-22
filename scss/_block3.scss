@@ -1,8 +1,10 @@
-.block3 {
+ .block3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 200px;
+    margin-top: 50px;
     gap: 30px;
+  
+
 
         .block3-head {
             display: flex;
@@ -52,8 +54,28 @@
 
         .block3-img {
             position: relative;
-
-            
+            background: url("../assets/Group 35.png") no-repeat right;
+            background-size: auto;
         }
 
 }
+
+
+.block3-img img:hover {
+    transition: transform 2S;
+    transform: rotate(-360deg);
+  }
+
+
+.block3 {
+    background: url("../assets/image 15.png") no-repeat;
+    background-size: cover;
+}
+
+
+  
+
+  
+  
+  
+  
